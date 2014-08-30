@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Oswald", sans-serif;
+	line-height: 1.8;
+	font-size: 100%;
+}
+
+img{
+	max-width: 100%;
+	border:1px solid black;
+}
+
+/* SASS variables ==================== */
+
+$panelBackG : #EDEDE2;
+
+@mixin panel( $color ) {
+	padding:1rem;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.4);
+	margin-top: 0.5rem;
+	color: $color;
+	overflow: hidden;
+	float: left;
+	width:20%;
+	margin-left: 2%;
+	min-height: 20rem;
+}
+
+.dali{
+	@include panel( black );
+	background-color: $panelBackG;
+}
+
+.boardGame{
+	@include panel( gray );
+	background-color: darken( $panelBackG, 20% );
+}
+
+.apartments{
+	@include panel( blue );
+	background-color: $panelBackG;
+}
+
+.library{
+	@include panel( green );
+	background-color: darken( $panelBackG, 40% );
+}
+
+
+
+
