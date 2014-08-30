@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: menlo, sans-serif;
+	line-height: 1.6;
+	font-size: 100%;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+/* 
+	Specificity weights : Contextual > ID > class > element-selector.
+	If rules are equal, the later one wins.
+*/
+
+.wrapper #oxford{
+	color:black;
+}
+
+#oxford{
+	color:blue;
+	font-style: italic;
+}
+
+.university{
+	text-align: center;
+	font-size: 4em;
+	color: orange
+}
+
+p{
+	color: green;
+	border: 1px solid green;
+	letter-spacing: 0.4em;
+}
+
+p{
+	border: none;
+}
+
+/* 
+	Inspect element.
+	Review result in web inspector
+*/
+

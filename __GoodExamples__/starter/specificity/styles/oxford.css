@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: menlo, sans-serif;
+	line-height: 1.6;
+	font-size: 100%;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+.wrapper #oxford{
+	color:black;
+}
+
+#oxford{
+	text-align: right;
+	color:blue;
+}
+
+.university{
+	font-size: 4em;
+	color:orange;
+}
+
+p {
+	color: green;
+	letter-spacing: 2px;
+}
+/* This rule comes later */
+p{
+	letter-spacing: 10px;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

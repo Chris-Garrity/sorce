@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Oswald", sans-serif;
+	line-height: 1.8;
+	font-size: 100%;
+}
+
+.panel{
+	background-color: #EDEDE2;
+	padding:0.5rem;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.4);
+	margin:1rem auto;
+	color: #444444;
+	overflow: hidden;
+	float: left;
+	width:24.25%;
+	margin-right: 1%;
+	min-height: 40rem;
+}
+
+.panel:nth-of-type(4){
+	margin-right: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	border-top: 1px solid rgba(0,0,0,0.2);
+	padding: 0.5rem;
+}
+
+ul span{
+	color:#E18D48;
+}
+
+.frame{
+	max-width: 100%;
+	opacity: 0.4;
+	border-radius: 50%;
+	border: 10px solid rgba(0,0,0,0.1);	
+}
+
+.caseA{
+
+	/* 
+	Default values
+	property : duration : delay : timer_function
+	same as
+	transition: 1s;
+	*/
+
+	-webkit-transition: all 1s 0s ease;
+ 	transition: all 1s 0s ease;
+}
+
+.caseA:hover{
+	border-radius: 0;
+	opacity: 1;
+}
+
+
+#drop{
+
+	/* 
+	Default values
+	property : duration : delay : timer_function
+	same as
+	transition: 1s;
+	*/
+
+	position: relative;
+	top:0;
+	width:80%;
+
+	-webkit-transition: all 1s 0 cubic-bezier(.65, 2.5, .04, .32);
+ 	transition: all 1s 0 cubic-bezier(.65, 2.5, .04, .32);
+}
+
+#drop:target{
+
+	top:440px;
+	width:25%;
+
+}
+
+.button{
+	background-color: rgba(0,0,0,0.1);
+	/*border-radius: 0.5rem;*/
+	border: 2px solid rgba(0,0,0,0.2);
+	color:#444444;
+	cursor: pointer;
+	display: block;
+	letter-spacing: 0.1rem;
+	margin: 0.5rem auto;
+	padding: 0.25rem;
+	text-align: center;
+	text-decoration: none;
+	width: 50%;
+}
+
+.button:hover{
+	background-color: rgba(0,0,0,0.2);	
+}
+
+
+
+
