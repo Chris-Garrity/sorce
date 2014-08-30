@@ -1,0 +1,87 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Menlo, monospaced;
+	font-size: 100%;
+}
+
+#wrapper {
+	padding: 1em;
+	width: 95%;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+ul{
+	clear: left;
+	width: 100%;
+}
+
+.dayweek {
+	float: left;
+	font-size: 0.7em;
+	margin: 0.25em;	
+	opacity: 0.5;
+	padding-left: 0.25em;
+	text-align: right;
+	width: 12.75%;
+}
+
+.date {
+	background-color: #DDDDDD;
+	color: white;
+	float: left;
+	font-size: 0.7em;
+	height: 10em;
+	margin: 0.25em;	
+	padding: 0.25em;
+	text-align: right;
+	width: 12.75%;
+}
+
+.date a{
+	border-bottom: 1px solid black;
+	color: white;
+	display: block;
+	margin: 0.5em 0em;
+	padding: 0.4em;
+	text-align: left;
+	text-decoration: none;
+}
+
+.date a:hover{
+	color: yellow;
+}
+
+.active{
+	background-color: #6E6DE4;
+}
+
+.empty {
+	color: black;
+}
+
+.clearfix:after {
+     clear: both;
+     content: " ";
+     display: block;
+     font-size: 0;
+     height: 0;
+     visibility: hidden;
+}
+
+/*
+Create a media query for a narrow 1-column calendar.
+
+Reduce height and increase width of ".date"
+
+Change ".date a" to inline-block
+
+Reduce height of ".empty" days
+
+Hide days of week.
+*/

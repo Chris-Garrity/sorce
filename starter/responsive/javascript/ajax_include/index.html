@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Ajax Include Pattern</title>
+
+	<link rel="stylesheet" href="css/normalize.css" >	
+	<link rel="stylesheet" href="css/style.css" >
+
+</head>
+<body>
+
+  	<h2>The Ajax Include pattern (Filament Group Scott Jehl)</h2>
+
+    <div class="container" >
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/matchMedia.js"></script>
+    <script src="js/matchMedia.addListener.js"></script>
+    <script src="js/ajaxInclude.js"></script>
+
+    <script>
+    	$( "[data-replace]" ).ajaxInclude();
+    </script>
+
+</body>
+</html>

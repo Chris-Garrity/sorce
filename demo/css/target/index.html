@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Skyart of French artist Thomas Lamadieu</title>
+
+		<!--
+		To make the CSS TARGET pseudo-selector work in IE8:
+		
+		- View the page from an HTTP url, not running locally on the desktop.
+		- Run in standards mode, not compatibility mode.
+		- Load jQuery in the head.
+		- Load selectivizr.js in the head.
+		-->
+
+		<!--[if (gte IE 6)&(lte IE 8)]>
+				<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  			<script type="text/javascript" src="js/selectivizr.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" href="target.css" />
+
+</head>
+
+	<body>
+
+			<h4>Skyart of French artist Thomas Lamadieu</h4>
+
+			<nav>
+				<a href="#montreal"><img src="images/montreal.jpeg"></a>
+				<a href="#brussels"><img src="images/brussels.jpeg"></a>
+				<a href="#paris"><img src="images/paris.jpeg"></a>
+				<a href="#cologne"><img src="images/cologne.jpeg"></a>
+				<a href="#berlin"><img src="images/berlin.jpeg"></a>
+				<a href="#marburg"><img src="images/marburg.jpeg"></a>
+			</nav>
+
+			<hr />
+
+			<img class="full" id="montreal" src="images/montreal.jpeg">
+			<img class="full" id="brussels" src="images/brussels.jpeg">
+			<img class="full" id="paris" src="images/paris.jpeg">
+			<img class="full" id="cologne" src="images/cologne.jpeg">
+			<img class="full" id="berlin" src="images/berlin.jpeg">
+			<img class="full" id="marburg" src="images/marburg.jpeg">
+
+	</body>
+
+</html>

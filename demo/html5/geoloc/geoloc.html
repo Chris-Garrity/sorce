@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset=utf-8>
+	<title>HTML5 Geolocation</title>
+</head>
+<body>
+	
+	<script>	
+		
+		if (navigator.geolocation) {
+		  	var options = { enableHighAccuracy: true, timeout: 4000 }
+		  	navigator.geolocation.getCurrentPosition( success, error, options);
+		} 
+
+		function success( object ) {
+				
+				console.log( object )
+			// Send Google Maps to this location.
+			
+			window.location = "http://maps.google.co.uk/maps?ll=" 
+							+ object.coords.latitude 
+							+ "," 
+							+ object.coords.longitude 
+							+ "&t=m&z=14" ;
+		}
+		
+		function error( object ) { 
+			console.log( object );
+		}
+	</script>
+
+</body>
+</html>

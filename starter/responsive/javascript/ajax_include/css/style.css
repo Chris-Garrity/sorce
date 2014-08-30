@@ -1,0 +1,54 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+	width: 90%; 
+	margin: auto;
+	max-width: 1400px;
+}
+
+.panel {
+	width: 100%;
+
+/*	outline : 1px solid rgba(228,228,255,1);
+	margin: 0.1em;*/
+}
+
+h2 {
+	margin: 1em;
+	opacity: 0.4;
+}
+
+h4 {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+img {
+	margin: 0 auto;	
+	max-width: 100%;
+	display: block;
+}
+
+@media screen and (min-width: 480px) {
+	.panel {
+		float: left;
+		width : 48%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.panel {
+		width : 24%;
+	}
+}
+
+
+
+
+
+
+
+
+

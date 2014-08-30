@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Custom attributes in HTML5</title>	
+
+	<link rel="stylesheet" href="styles/reset.css" >
+	<link rel="stylesheet" href="styles/paint.css" >
+	
+</head>
+
+<body>
+
+	<section class="clearfix">
+		<ul>
+			<li id="vandyck" 
+
+				data-name="Sir Anthony van Dyck" 
+				data-born="22 March 1599"
+				data-biog="A Flemish Baroque artist who became the leading court painter in England"
+				data-wiki="http://en.wikipedia.org/wiki/Anthony_van_Dyck" 
+				>
+
+				<img src="media/vandyck.jpeg" />
+	
+			</li>		
+			
+			<li id="rembrandt" >
+
+				<img src="media/rembrandt.jpg" />
+			
+			</li>
+			
+
+		</ul>
+	</section>
+
+	<section class="details">
+		<p id="name"></p>
+		<p id="born"></p>		
+		<p id="biog"></p>
+		<p>Wikipedia <a id="wiki"></a></p>
+	</section>
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/attrib.js"></script>
+
+</body>
+</html>
+

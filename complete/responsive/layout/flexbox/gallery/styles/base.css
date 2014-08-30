@@ -1,0 +1,41 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    font-size: 100%;
+    margin-top: 2em;
+} 
+
+
+#container {
+    
+    background-color: rgba(0,100,0,0.1);
+
+    /* Use the FLEXBOX layout model */
+    display: flex; 
+
+    /* Set orientation of main axis */
+    flex-flow: row;
+
+    /* How items are laid out along main horizontal axis */
+    justify-content: center; /*space-around;*/
+
+    /* How items are laid out along cross vertical axis */
+    align-items: center;
+
+    flex-wrap: wrap;
+
+} 
+
+
+img {
+    border: rgba(0,0,0,0.4) solid 1px; 
+    padding: 0.5em;
+    background-color: white;
+    margin: 0.5em;
+}
+
+
+

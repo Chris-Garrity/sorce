@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 form</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/cake.css" />
+
+</head>
+
+<body>
+
+  <!--
+    action="http://127.0.0.1:8080/myaction" method="post"    
+    http://www.wufoo.com/html5/
+  -->
+
+    <img src="media/cake_error.png" id="cake">
+
+    <form  id="cakeForm">
+
+    <!-- ================================================= -->
+
+    <label>Name</label>
+    <input type="text" placeholder="First" name="name" autofocus required>
+
+    <!-- ================================================= -->
+
+    <label>Email</label>
+    <input type="email" placeholder="Email address" name="email" id="email" required>
+
+    <!-- ================================================= -->
+
+    <!-- Confirmation email -->
+
+    <!-- ================================================= -->
+
+    <!-- PHONE : 7 digits -->
+
+    <!-- ================================================= -->
+
+    <label>Cake</label>
+
+    <select name="cake">
+      <option value="sponge">Sponge</option>
+      <option value="carrot">Carrot</option>
+      <option value="almond">Almond</option>
+      <option value="muffin">Muffin</option>
+    </select>
+
+    <!-- ================================================= -->
+ 
+    <!-- Quantity -->
+
+    <!-- ================================================= -->
+
+    <!-- Delivery options -->
+
+    <!-- ================================================= -->
+
+    <!-- Message -->
+
+    <!-- ================================================= -->
+
+    <!-- Discount code : four uppercase letters + four digits -->
+
+   <!-- ================================================= -->
+
+    <input class="button small" type="submit" value="Buy Cake" id="submit"/>
+
+  </form>
+
+  <script src="js/cake.js" ></script>
+
+</body>
+</html>

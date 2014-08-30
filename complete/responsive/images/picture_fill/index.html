@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Picturefill Version 2</title>
+
+		<script>
+			// Picture element HTML5 shiv for older browsers.
+			document.createElement( "picture" );
+		</script>
+		<script src="js/picturefill.min.js" async></script>
+
+		<style>
+			img {
+				max-width: 100%
+			}
+		</style>
+	</head>
+	<body>
+
+	<picture>
+
+		<!--
+		IE9 cannot see source elements inside a picture element.
+		The video tag avoids this : http://scottjehl.github.io/picturefill/#support
+		-->
+
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+
+		<source srcset="imgs/extralarge.jpeg" 	media="(min-width: 800px)">
+		<source srcset="imgs/large.jpeg"				media="(min-width: 600px)">
+		<source srcset="imgs/medium.jpeg"			 media="(min-width: 500px)">
+		<source srcset="imgs/small.jpeg">
+
+		<!--[if IE 9]></video><![endif]-->
+
+		<img 	 srcset="imgs/small.jpeg" 			 alt="Desert climber">
+
+	</picture>
+
+	</body>
+</html>

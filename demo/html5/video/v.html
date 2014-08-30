@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<meta charset=utf-8>
+		<title>HTML5 Video</title>
+		<!-- Style the HTML5 video with CSS -->
+		<link rel=stylesheet href="styles/video.css">
+</head>
+
+<body>
+
+	<!-- Version A 	-->
+	<video src="media/bunny.webm" controls></video>
+
+	<!-- 
+	Version B
+	Added multiple codecs for different browsers.
+	The type attribute will improve performance.
+
+	<video controls>
+  		<source src="media/bunny.webm" 	type='video/webm;codecs="vp8"' />
+  		<source src="media/bunny.mp4"	type='video/mp4;codecs="h.264"'/>
+	</video>
+	-->
+
+	<!-- 
+	Version C
+	Play a segment using MEDIA FRAGMENTS, and autoplay it.
+
+	<video src="media/bunny.webm#t=19,21" controls autoplay></video>
+	-->
+
+	<!-- 
+	Version D
+	Subtitles using WEBVTT tracks. 
+	The HTML file needs to run from an HTTP url, to avoid AJAX cross-domain errors.
+	http://codeburger.com/webc/html5/v.html
+
+
+	<video src="media/bunny.webm" controls>
+		
+		<track 	src="subtitles/bunny_en.vtt" 
+				label="English" 
+				kind="subtitles" 
+				srclang="en" 
+				default>
+		</track>
+		
+	</video>
+	-->
+
+	<!-- 
+	Version E
+	Fallback content for older browsers.
+	Anything inside the VIDEO element, that is not a SOURCE tag.
+
+	<video src="media/bunny.webm" controls>
+		<img src="media/oldeBrowsers.jpg" />
+	</video>
+	-->
+
+	<!-- 
+	Version F
+	Using Javascript to script playback of the video.
+
+
+	<video src="media/bunny.webm" controls id="bunny" autoplay></video>
+	<p id="time">0</p>
+
+	<script src="js/video.js"></script>
+	-->
+
+</body>
+</html>
+

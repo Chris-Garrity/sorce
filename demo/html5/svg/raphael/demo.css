@@ -1,0 +1,13 @@
+body {
+    background: #444444;
+    color: #fff;
+    font: Helvetica, sans-serif;
+}
+#draw {
+    height: 480px;
+    left: 50%;
+    margin: -240px 0 0 -320px;
+    position: absolute;
+    top: 50%;
+    width: 640px;
+}

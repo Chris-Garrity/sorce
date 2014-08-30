@@ -1,0 +1,99 @@
+/* RESET */
+ul{
+	list-style: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma, serif;
+	font-size: 100%;
+}
+
+#wrapper {
+	padding: 1em;
+	width: 95%;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+ul{
+	clear: left;
+	width: 100%;
+}
+
+.dayweek {
+	float: left;
+	padding: 0.25em;
+	margin: 0.25em;	
+	width: 12.75%;
+	color: #6E6DE4;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.date {
+	float: left;
+	margin: 0.25em;	
+	width: 12.75%;
+	height: 10em;
+	background-color: #DDDDDD;
+	text-align: right;
+	padding: 0.25em;
+	font-size: 0.9em;
+	color: white;
+}
+
+.date a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 0.5em 0em;
+	padding: 0.4em;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
+.date a:hover{
+	color: yellow;
+}
+
+.active{
+	background-color: #6E6DE4;
+}
+
+.empty {
+	color: black;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+@media screen and (max-width: 40em) {
+	.date {
+		width: 95%;
+		height: 4em;
+	}
+	.date a{
+		display: inline-block;
+		margin: 0.5em;
+		border-bottom: 0;
+	}
+	.empty {
+		height: 1.5em;
+	}
+	.dayweek {
+		display: none;
+	}
+}

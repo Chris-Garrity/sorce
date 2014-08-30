@@ -1,0 +1,16 @@
+p{
+	color:white;
+	font-family: Arial, sans-serif;
+	margin: 1em auto;
+	padding: 0.5em;
+	text-align: center;
+	width: 40%;
+}
+
+.success{
+	background-color: green;	
+}
+
+.fail{
+	background-color: red;
+}

@@ -1,0 +1,57 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    font-family: Signika Negative, sans-serif;
+    margin-top: 1em;
+} 
+
+.wrapper{
+  margin: 1em auto;
+  width: 90%;
+}
+
+div > section {
+  margin-top: 1em;
+}
+
+h4{ 
+  font-size: 1.2em;
+  color: brown;
+}
+
+h4, p {
+  margin-bottom: 0.5em;
+
+}
+
+p span{
+  opacity: 0.5;
+  font-style: italic;
+}
+
+img{
+    border: 1px solid rgba(148,120,20,0.2);
+}
+
+.panel{
+  background-color: rgba(148,120,20,0.1);
+  padding: 1em;
+  border: 1px solid rgba(148,120,20,0.4);
+  color: black;
+}
+
+.Media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Media-figure {
+  margin-right: 1em;
+}
+
+.Media-body {
+  flex: 1;
+}

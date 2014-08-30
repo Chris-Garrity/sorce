@@ -1,0 +1,34 @@
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.hide {
+	text-indent: -8888px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+li a {
+	display: block;
+	width: 290px;
+	height: 20px;
+	background-image: url( sprite.png );
+	background-repeat: no-repeat;
+}
+
+li a.twiter { 
+	background-position: 0 0;
+}
+li a.facebook { 
+	background-position: 0 -20px;
+}
+li a.googleplus { 
+	background-position: 0 -40px;
+}
+li a.linkedin { 
+	background-position: 0 -60px;
+}
+
+
+

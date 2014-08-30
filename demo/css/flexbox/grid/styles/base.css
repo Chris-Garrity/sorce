@@ -1,0 +1,42 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    font-family: Alegreya Sans, sans-serif;
+    margin-top: 1em;
+} 
+
+.box {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  margin: 0.25em;
+  min-width: 4em;
+  padding: 1em;
+  text-align: center;
+}
+
+.light{
+    background-color: #FADB5C;
+}
+
+.dark{
+     background-color: #EAC456;
+}
+
+
+.gridRow {
+  display: flex;
+}
+
+.cell {
+  flex: 1;
+}
+
+@media screen and (max-width: 40em) {
+    .gridRow {
+        display: block;
+    }   
+}

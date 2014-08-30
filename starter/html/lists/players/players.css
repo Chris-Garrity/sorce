@@ -1,0 +1,22 @@
+
+#players {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	margin: 1em;
+	cursor: pointer;
+	padding:0;
+	position: relative;
+}
+
+
+li:hover{
+	top:4px;
+}

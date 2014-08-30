@@ -1,0 +1,46 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 100%;
+	margin: 1em;
+}
+
+h1 {
+	font-size: 1.4em;
+	text-align: center;
+	padding-bottom: 0.5em;
+	border-bottom: solid 4px rgba(0,0,0,0.1);
+}
+
+#centralbank , #mortgage, #mpc, #history {
+	display: none;
+}
+
+@media screen and (min-width: 600px ) {
+	#centralbank {
+		display: inline;
+		color: #8DD25A;
+	}
+}
+
+@media screen and (min-width: 940px ) {
+	#mortgage {
+		display: inline;
+		color: #21D2AC;
+	}
+}
+
+@media screen and (min-width: 1100px ) {
+	#mpc {
+		display: inline;
+		color: #B0B0B0;
+	}
+}
+
+@media screen and (min-width: 1260px ) {
+	#history {
+		display: inline;
+		color: #D2A86D;
+	}
+}
+
+

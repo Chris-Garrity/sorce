@@ -1,0 +1,35 @@
+
+body{
+    font-family: Tahoma, sans-serif;
+    margin-left: 10em;
+}
+
+hr{
+  opacity: 0.2;
+  margin-bottom: 1em;
+}
+
+nav img{
+  margin-right: 1em;
+  width: 4em;
+  border: 1px solid white;
+}
+
+nav img:hover{
+  border: 1px solid black
+}
+
+/* ================================= */
+
+.full{
+  display: none;
+}
+
+/*
+  The target pseudo selector is matched if the HASH in the
+  current URL matches the ID of an element.
+*/
+
+.full:target{
+  display:block;
+}

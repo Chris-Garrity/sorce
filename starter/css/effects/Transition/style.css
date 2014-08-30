@@ -1,0 +1,28 @@
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.6em;
+}
+
+#wrapper{
+	margin: 0 auto;
+	padding: 1em;
+}
+
+a {
+	border-radius: 10px;
+	margin: 0 auto;
+	cursor: pointer;
+	isplay: block;
+	padding: 10px;
+	text-align: center;
+	ext-decoration: none;
+	max-width: 200px;
+	color: #000000;
+	background-color: #ffd012;
+  text-decoration: none;	
+ }
+
+ a:hover {
+ 	background-color: #ffa212;
+	color: #FFFFFF;
+ }

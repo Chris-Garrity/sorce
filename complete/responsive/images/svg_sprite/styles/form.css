@@ -1,0 +1,21 @@
+body {
+	font-family: menlo, sans-serif;
+}
+
+a {
+  	background-image: url("../media/sprite.png");
+  	background-position: 0.625em 0;
+  	background-size: 1.875em 10em;
+  	background-repeat: no-repeat;
+  	background-color: #DDDDDD;
+  	font-size: 1em;
+	padding: 0.5em;
+	margin-right: 1em;
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.svg a{
+  	background-image: url("../media/sprite.svg");	
+}

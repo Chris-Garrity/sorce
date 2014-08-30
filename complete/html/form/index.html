@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <title>Cake FORM</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/cake.css" />
+
+</head>
+
+<body>
+
+  <img src="media/cake.png">
+
+    <form action="http://127.0.0.1:8080/myaction" method="post">
+
+    <!-- ================================================= -->
+
+    <label>First</label>
+    <input type="text" placeholder="First" name="first">
+
+    <!-- ================================================= -->
+
+    <label>Last</label>
+    <input type="text" placeholder="Last" name="last">
+
+    <!-- ================================================= -->
+
+    <label>Cake</label>
+
+    <select name="cake">
+      <option value="sponge">Sponge</option>
+      <option value="carrot">Carrot</option>
+      <option value="almond">Almond</option>
+      <option value="muffin">Muffin</option>
+    </select>
+
+    <!-- ================================================= -->
+
+    <label>Delivery</label>
+
+    <select name="delivery">
+      <option value="collect">Collect</option>
+      <option value="standard">Standard</option>
+      <option value="express">Express</option>
+      <option value="overnight">Overnight</option>
+    </select>
+
+    <!-- ================================================= -->
+
+    <input class="button small" type="submit" value="Submit" />
+
+  </form>
+
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="js/cake.js" ></script>
+
+</body>
+</html>

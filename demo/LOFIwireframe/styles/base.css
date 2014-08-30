@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+} 
+
+.block{   
+    background-color: #82AB4F;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    color: black;
+    letter-spacing: 0.1rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.cf {
+     clear: both;
+}
+
+@media screen and (min-width: 40rem) {
+    .half{
+        width: 50%;
+        float:left;
+    }
+}

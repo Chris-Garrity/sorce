@@ -1,0 +1,32 @@
+
+body {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+
+
+
+div, h1, h4, p {
+	border: 2px solid #158f10;
+	margin: 5px;
+	padding: 5px;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+span, i, em, strong {
+	border: 2px solid #ff7b11;
+	font-weight: bold;
+	margin: 2px;
+	padding: 2px;
+}
+
+#intro {
+	background-color: #EFFFFF;
+}
+
+#arch{
+	width: 50%;
+}

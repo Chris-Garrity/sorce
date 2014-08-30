@@ -1,0 +1,137 @@
+
+body {
+    background-color: white;
+    color: #444444;
+    font-family: Menlo, sans-serif;
+    font-size: 100%;
+    margin:0;
+    padding: 0;
+}
+
+/* Basic styles */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header ========================================= */
+
+header {
+    background-color: #e4e2db;
+    border-bottom: 6px dotted #C8C6C0;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+	background:  url('../media/logo.png') center no-repeat;
+	height: 4em;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+header p {
+	margin: 0.5em;
+}
+
+/* Featured-menu ========================================= */
+
+#featured {
+    background-color: #444444;
+    color: white;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#featured li {
+    float: left;
+    width: 50%;
+    border-left: 1px solid #FFFFFF;
+}
+
+#featured li:first-child {
+    border-left: none;
+    margin-left: -1px;
+}
+
+#featured a {
+    color: white;
+    display: block;
+    padding: .5em 0;
+}
+
+/* Content ========================================= */
+
+#content, footer {
+    padding: 1px 1em;
+}
+#content {
+    text-align: center;
+}
+
+#pies li {
+    margin: 2em 0;
+}
+
+#pies a {
+    padding: 0.5em 4em;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#pies img, #pies p {
+    display: none;
+}
+
+.remarkable_pie {}
+
+/* Navigation ========================================= */
+nav {
+    margin-top: -1em;
+    background-color: #6FC6A0;
+    color: white;  
+}
+
+nav li {
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+}
+nav li:last-child {
+    border-bottom: 0;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: .5em 0;
+}
+
+/* Footer ========================================= */
+footer {
+    background-color: #605F5C;
+    color: white;
+    text-align: center;
+    margin-top: -1em;
+}
+footer a:link {
+    color: #009051;
+}
+
+footer #extended {
+    display: none;
+}

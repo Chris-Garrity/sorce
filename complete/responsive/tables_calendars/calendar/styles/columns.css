@@ -1,0 +1,96 @@
+body {
+	font-family: Menlo, monospaced;
+	font-size: 100%;
+}
+
+#wrapper {
+	padding: 1em;
+	width: 95%;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+ul{
+	clear: left;
+	width: 100%;
+}
+
+.dayweek {
+	float: left;
+	margin: 0.25em;	
+	width: 12.75%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	opacity: 0.5;
+	text-align: right;
+	padding-left: 0.25em;
+	font-size: 0.7em;
+}
+
+.date {
+	float: left;
+	margin: 0.25em;	
+	width: 12.75%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/*border: 1px solid black;*/
+	height: 10em;
+
+	background-color: #DDDDDD;
+	text-align: right;
+	padding: 0.25em;
+	font-size: 0.7em;
+	color: white;
+}
+
+.date a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 0.5em 0em;
+	padding: 0.4em;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
+.date a:hover{
+	color: yellow;
+}
+
+.active{
+	background-color: #6E6DE4;
+}
+
+.empty {
+	color: black;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+@media screen and (max-width: 40em) {
+	.date {
+		width: 95%;
+		height: 4em;
+	}
+	.date a{
+		display: inline-block;
+		margin: 0.5em;
+		border-bottom: 0;
+	}
+	.empty {
+		height: 1.5em;
+	}
+	.dayweek {
+		display: none;
+	}
+}

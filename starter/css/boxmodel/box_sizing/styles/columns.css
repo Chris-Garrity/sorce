@@ -1,0 +1,40 @@
+
+body {
+    font-family: menlo, sans-serif;
+}
+
+.wrapper {
+    margin: 1em auto;
+    max-width: 1400px;
+    background-color: rgba(45,150,255,0.2);
+    border: solid 2px #BEBBBB;
+}
+
+.column {
+
+    background-color: #EBE8E8;
+    color: rgb( 40,48,61 );
+    float: left;
+    font-size: 1em;
+    overflow: hidden;
+    width: 18%;  
+
+}
+
+p {
+	font-size: 0.9em;
+}
+
+img{
+	max-width: 100%;
+    border: 1px solid gray;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}

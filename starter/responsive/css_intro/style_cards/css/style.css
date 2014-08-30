@@ -1,0 +1,51 @@
+body {
+	font-family: 'Helvetica', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+
+}
+
+.card {
+
+}
+
+h4 {
+
+}
+
+img {
+
+}
+
+.container, .card, h4, img {
+	/*outline: 1px solid green;*/
+}
+
+
+/*
+	background-color: rgba( 0,0,0,0.05);
+	border-radius: 0.6em;
+	border: 8px solid rgba( 194,205,187,0.1);
+	color: #4d4d4d;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 1em;
+	letter-spacing: 0.4em;
+	margin: 0 auto;
+	margin: 1em;
+	margin: auto;
+	max-width: 1400px;
+	opacity: 0.8;
+	padding: 1em;
+	text-align: center;
+	width : 160px;
+	width: 96%; 
+*/
+
+
+
+
+

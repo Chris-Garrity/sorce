@@ -1,0 +1,46 @@
+body{
+	font-family: Arial;
+}
+
+.content{
+	margin: 1em auto;
+	width: 90%;
+}
+
+#button{
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	margin:1em 0;
+	border: 1px solid black;
+}
+
+h4{
+	letter-spacing: 0.2em;
+}
+
+img{
+	border: 1px solid black;
+	max-width: 100%;
+}
+
+/* =================================== */
+
+body:after {
+	content: '';
+	color: orange;
+	padding-left: 1em;
+	font-size: 4em;
+}
+
+@media (max-width: 480px) {
+	body:after {
+		content: 'phone';
+	}
+}
+
+@media (min-width: 481px) {
+	body:after {
+		content: 'tablet';
+	}
+}

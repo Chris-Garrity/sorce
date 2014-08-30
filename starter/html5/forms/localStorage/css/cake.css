@@ -1,0 +1,20 @@
+
+body{
+	margin: 2em;
+}
+
+form{
+  width:80%;
+}
+
+p{
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  color: green;
+  width:50%;
+}
+
+/* Pseudo-class to colour invalid input field text red */
+input:invalid {
+	background-color: #DEDEDE;
+}

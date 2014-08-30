@@ -1,0 +1,22 @@
+#ondemo li {
+	display : inline;
+	margin-right: 50px;
+	cursor : pointer;
+	list-style: none;
+}
+
+@-webkit-keyframes CLOCKWISE {
+  0% {
+  	-webkit-transform:rotate(0deg);
+  	opacity: 0;
+	 }
+  100% {
+  	-webkit-transform:rotate(180deg);
+  	opacity: 1;
+	 }
+}
+
+.clockwise {
+  -webkit-animation: CLOCKWISE 1s infinite; /* Safari 4+ */
+  animation:         CLOCKWISE 1s infinite; /* IE 10+ */
+}

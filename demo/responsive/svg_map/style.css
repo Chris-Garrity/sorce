@@ -1,0 +1,12 @@
+
+body {
+	font-family: menlo, sans-serif;
+	font-size: 100%;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0 auto;
+	padding: 0.5em 0;
+	text-align: center;
+}

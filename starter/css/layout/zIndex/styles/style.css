@@ -1,0 +1,35 @@
+
+body {
+	font-family: Tahoma;
+}
+
+div {
+	padding: 4px;
+	margin: 4px;
+	line-height: 1.6;
+	font-size: 1.1em;
+}
+
+.dialog{
+	border-radius: 0.25em;
+	padding: 0.5em;
+	background-color: #CCB97A;
+	margin: 1em auto;
+	text-align: center;
+	width: 40%;
+	border: 4px solid rgba(0,0,0,0.1);
+	
+}
+
+.dialog a{
+	margin: 0.5em auto;
+	text-align: center;
+	width: 25%;
+	background-color: #C5A641;
+	border-radius: 0.25em;	
+	color: black;
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	border: 4px solid rgba(0,0,0,0.1);
+}

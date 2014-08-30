@@ -1,0 +1,12 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 100%;
+	margin: 1em;
+}
+
+h1 {
+	font-size: 1.4em;
+	text-align: center;
+	padding-bottom: 0.5em;
+	border-bottom: solid 4px rgba(0,0,0,0.1);
+}

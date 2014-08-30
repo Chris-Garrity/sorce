@@ -1,0 +1,56 @@
+body{
+	font-family: Arial;
+}
+
+.content{
+	margin: 1em auto;
+	width: 90%;
+}
+
+#button{
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	margin:1em 0;
+	border: 1px solid black;
+}
+
+h4{
+	letter-spacing: 0.2em;
+}
+
+img{
+	border: 1px solid black;
+	max-width: 100%;
+}
+
+/* =================================== */
+
+body:after {
+	content: '';
+	display: none;
+}
+
+@media (max-width: 480px) {
+	body:after {
+		content: 'phone';
+	}
+}
+
+@media (min-width: 481px) {
+	body:after {
+		content: 'tablet';
+	}
+}
+
+@media (min-width: 800px) {
+	body:after {
+  		content: 'desktop';
+	}
+}
+
+@media (min-width: 1100px) {
+	body:after {
+    	content: 'wide';
+  	}
+}
