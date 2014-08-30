@@ -1,0 +1,24 @@
+
+body {}
+
+.hide{
+	text-indent: -8888px;
+}
+
+li{
+	background: url( "../images/sprites.png")  no-repeat;
+	width: 32px;
+	height: 32px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.pushpin{
+	background-position: -48px 0;
+}
+
+
+
+
+
+

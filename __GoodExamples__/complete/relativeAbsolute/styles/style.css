@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Georgia;
+	font-size: 100%;	
+	line-height: 1.6;
+}
+
+div {
+	border : 4px solid rgba(0,0,0,0.2);
+	padding: 1rem;
+	margin: 1rem;
+	width: 50%;
+}
+
+p {
+	background-color: #E9C951;
+	padding: 1rem;
+	border : 4px solid rgba(0,0,0,0.2);
+}
+
+/*p {
+	position: relative;
+	top: 4rem;
+	left: 4rem;
+}*/
+
+/*p {
+	position: absolute;
+	top: 4rem;
+	left: 4rem;
+}*/

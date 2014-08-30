@@ -1,0 +1,80 @@
+/* Attrib.CSS 
+
+EXAMPLES :
+-----------------------------------------------
+
+Select DIVs where data-ny EQUALS "broadway"
+
+<div data-ny="broadway">
+
+div[data-ny = "broadway"] {}
+
+-----------------------------------------------
+
+Select DIVs where data-ny CONTAINS "park"
+
+<div data-ny="Central-Park-West">
+<div data-ny="Central-Park-East">
+
+div[data-ny *= "Park"] {}   
+
+-----------------------------------------------
+
+Select DIVs where data-ny BEGINS "upper"
+
+<div data-ny="upper-east-side">
+<div data-ny="upper-west-side">
+
+div[data-ny ^= "upper"] {}
+
+-----------------------------------------------
+
+Select DIVs where data-ny ENDS "avenue"
+
+<div data-ny="fourth-avenue">
+<div data-ny="fifth-avenue">
+
+div[data-ny $= "avenue"] {}
+
+-----------------------------------------------
+
+EXERCISE :
+
+Select all DIVs whose data-sf attribute EQUALS "downtown" :  use "=" .
+
+Select all DIVs whose data-sf attribute CONTAINS "fish" :  Use "*=" .
+
+Select all DIVs whose data-sf attribute BEGINS with "cable" : use "^=" .
+Make H2s inside these DIVs, uppercase.
+
+Select all DIVs whose data-sf attribute ENDS with "town" : use "$=" .
+Make SPANs inside these DIVs, yellow.
+
+End-result looks like photos/done.png
+
+Everything is case sensitive.
+*/
+
+
+/* Equals */
+div[ data-sf = "downtown"] {
+
+}
+/* Contains */
+div[ data-sf *= "fish"] {
+
+}
+/* Begins with */
+div[ data-sf ^= "cable"] h2 {
+
+}
+/* Ends with */
+div[ data-sf $= "town"] span {
+
+}
+
+
+
+
+
+

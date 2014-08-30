@@ -1,0 +1,32 @@
+.icon {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	fill: currentColor;
+	cursor: pointer;
+}
+
+.icon:hover{
+	position: relative;
+	left:4px;
+}
+
+
+.icon-cart {
+	fill: rgb(49,177,215);
+}
+.icon-pushpin {
+	fill: rgb(40,164,92);
+}
+.icon-location {
+	fill: rgb(68,68,70);
+}
+.icon-compass {
+	fill: rgb(216,75,40);
+}
+.icon-alarm {
+	fill: rgb(5,70,144);
+}
+.icon-tv {
+	fill: rgb(240,128,0);
+}

@@ -1,0 +1,55 @@
+/* Attrib.CSS 
+
+===============================================
+
+Select DIVs where data-ny EQUALS "broadway"
+
+<div data-ny="broadway">
+
+div[data-ny = "broadway"] {}
+
+===============================================
+
+Select DIVs where data-ny CONTAINS "park"
+
+<div data-ny="Central-Park-West">
+<div data-ny="Central-Park-East">
+
+div[data-ny *= "park"] {}   
+
+===============================================
+
+Select DIVs where data-ny BEGINS "upper"
+
+<div data-ny="upper-east-side">
+<div data-ny="upper-west-side">
+
+div[data-ny ^= "upper"] {}
+
+===============================================
+
+Select DIVs where data-ny ENDS "avenue"
+
+<div data-ny="fourth-avenue">
+<div data-ny="fifth-avenue">
+
+div[data-ny $= "avenue"] {}
+
+===============================================
+*/
+
+div[ data-sf = "downtown"] {
+	border:2px dashed black;
+}
+
+div[ data-sf *= "fish"] {
+	background-color: #AEE2D6;
+}
+
+div[ data-sf ^= "cable"] h2 {
+	text-transform: uppercase;
+}
+
+div[ data-sf $= "town"] span {
+	color: yellow;
+}

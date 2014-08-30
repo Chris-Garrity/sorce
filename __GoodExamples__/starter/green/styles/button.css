@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.6;
+	font-size: 100%;
+}
+
+.button{
+
+	font-size: 4rem;
+	/*
+	letter-spacing
+	margin
+	min-width
+	padding
+	text-align
+	width
+	border-radius
+	border
+	color
+	*/
+}
+
+.trash{}
+
+.water{}

@@ -1,0 +1,43 @@
+
+body {}
+
+.hide {
+	text-indent: -8888px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+li {
+	width: 32px;
+	height: 32px;
+	background: url( "../images/sprites.png" ) no-repeat;
+	margin:20px;
+	cursor: pointer;
+}
+
+li:hover{
+	position: relative;
+	left: 4px;
+}
+
+.cart { 
+	background-position: 0 0;
+}
+.pushpin { 
+	background-position: -48px 0;
+}
+.location { 
+	background-position: -96px 0;
+}
+.compass { 
+	background-position: -144px 0;
+}
+.alarm { 
+	background-position: -192px 0;
+}
+.tv { 
+	background-position: -240px 0;
+}
+
+
+
