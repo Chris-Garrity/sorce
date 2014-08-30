@@ -1,0 +1,55 @@
+
+.container {
+	margin: 0 auto;
+	max-width: 60em;
+	width: 90%;
+	min-width: 24em;
+}
+
+.row {
+	background-color: #E7E2D1;
+	padding: 1em;
+	outline: solid 1px white;
+	margin: 0.5em auto;
+	border-bottom: dashed 2px rgba(0,0,0,0.2);
+}
+
+.column {
+	float: left;
+	margin-left: 2%;
+	border: solid 1px rgba(0,0,0,0.1);
+	padding: 1em;
+	color: black;
+	overflow: hidden;
+	text-align: center;
+}
+ 
+.column:first-child {
+  margin-left: 0;
+}
+
+.column.full {
+  width: 100%;
+}
+
+.column.one-eighth {
+  width: 10.75%;
+}
+
+.column.one-fourth {
+  width: 23.5%;
+}
+
+.column.half {
+  width: 49%;
+}
+
+
+
+
+
+
+
+
+
+
