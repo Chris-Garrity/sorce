@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+ul{
+	list-style: none;
+	margin: 2em;
+}
+
+li {
+	float: left;
+	margin-right: 1em;
+	cursor: pointer;
+}
+
+/* 
+Run this with iPad emulation turned on.
+Hover states are lost on touch devices.
+*/
+
+#dabfish:hover{}
+
+#gurnard:hover{}
+
+#herring:hover{}
+
+#pouting:hover{}
+
+#credit{
+	font-size: 0.8em;
+	opacity: 0.4;
+	text-align: right;
+	padding: 0;
+}
+
+.cf:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
